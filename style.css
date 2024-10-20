@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Latar belakang biru muda */
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    color: #d32f2f; /* Warna merah untuk judul */
+}
+
+p {
+    color: #424242; /* Warna abu-abu gelap untuk paragraf */
+    font-size: 1rem;
+    margin: 0.5em 0;
+}
+
+img {
+    margin: 10px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff; /* Border putih */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan */
+}
+
+nav {
+    background-color: #00796b; /* Warna hijau gelap */
+    padding: 10px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Efek transisi */
+}
+
+.navbar a:hover {
+    color: #ffeb3b; /* Warna kuning saat hover */
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.link-item a {
+    color: #00695c; /* Warna hijau gelap */
+    text-decoration: none;
+    transition: color 0.3s; /* Efek transisi */
+
+.link-background {
+    background-color: #ffffff; /* Latar belakang putih */
+    padding: 20px; /* Menambahkan padding */
+    border-radius: 8px; /* Menambahkan sudut melengkung */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+    margin-top: 20px; /* Jarak atas dari elemen sebelumnya */
+}
